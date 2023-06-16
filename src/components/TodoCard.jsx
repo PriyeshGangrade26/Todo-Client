@@ -66,7 +66,7 @@ const TodoCard = ({
                 const { data } = await axios.delete(`/todo/delete-todo/${id}`);
                 if (data?.success) {
                   sessionStorage.setItem("todoDeleted", "true");
-                  window.location.reload();
+                  // window.location.reload();
                 }
               } catch (error) {
                 console.log(error);
