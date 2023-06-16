@@ -84,8 +84,7 @@ const MyTodoCard = ({
   };
 
   return (
-    <div
-      className={styles.MarginTop}>
+    <div className={styles.MarginTop}>
       <div className="spaceBetween">
         <div>
           <div className={`${"alignRow MarginBottom10"} ${styles.leftWidth}`}>
