@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+  font-style: normal;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  overflow-x: hidden;
+}
+:root {
+  --color-white: white;
+  --color-black: black;
+  --color-grey: #f5f5f5;
+  --color-blue: #346bd5;
+  --color-gray: #858585;
+}
+.Center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.CenterInCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flexSpaceBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.whiteSpace {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.verticalAlign {
+  align-items: center;
+}
+.PageContentCenter {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.spaceBetween {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.spaceBetweenColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottomBorder {
+  margin: 0 50px 20px 50px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+.asideBottomBorder {
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+.todoCardBottomBorder {
+  margin-top: 20px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+.alignCenter {
+  display: flex;
+  align-items: center;
+}
+.alignRow {
+  display: flex;
+  flex-direction: row;
+}
+.alignCol {
+  display: flex;
+  flex-direction: column;
+}
+.alignRowCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.alignColCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Margin15 {
+  margin: 15px 40px;
+}
+.MarginAdjust {
+  margin: 15px 40px;
+  padding: 0 20px 0 0;
+}
+.MarginTop15 {
+  margin: 15px 0 0 0;
+}
+.MarginLeft15 {
+  margin: 0 0 0 30px;
+}
+.MarginLeft5 {
+  margin: 0 0 0 5px;
+}
+.MarginBottom15 {
+  margin: 0 0 25px 0;
+}
+.MarginBottom10 {
+  margin: 0 0 10px 0;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blueviolet;
+}
+.green {
+  background-color: greenyellow;
+}
+.leftWidth {
+  width: 40vw;
+}
+.scrollVertically {
+  overflow-y: auto;
+}
+.isActiveColor {
+  color: blueviolet;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 20px;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  margin-top: 18px;
+}

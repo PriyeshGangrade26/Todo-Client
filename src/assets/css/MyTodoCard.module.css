@@ -1,0 +1,92 @@
+.profileIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  margin: 0 20px 0 0;
+  background-color: gray;
+  color: white;
+}
+.profileName {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+.userName {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0 10px 0 0;
+}
+.postDate {
+  font-size: 15px;
+  font-weight: 500;
+}
+.todoImage {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.35rem gray);
+}
+.todoTitle {
+  font-size: 25px;
+  font-weight: 800;
+}
+.todoDescription {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+.userPosition {
+  font-size: 17px;
+  font-weight: 500;
+}
+.chip {
+  background-color: rgb(232, 232, 232);
+  color: black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 20px 0 0;
+}
+.MarginTop {
+  margin-top: 20px;
+}
+.fontAwesomeIcon {
+  margin-left: 10px;
+  font-size: 25px;
+}
+.iconRed {
+  color: crimson;
+  margin: 0 0 0 30px;
+  cursor: pointer;
+}
+.iconBlue {
+  color: blueviolet;
+  cursor: pointer;
+}
+.pending {
+  background-color: crimson;
+  color: white;
+}
+.inProgress {
+  background-color: orange;
+  color: white;
+}
+.completed {
+  background-color: rgb(34, 224, 34);
+  color: white;
+}
+.low {
+  color: rgb(34, 224, 34);
+}
+
+.medium {
+  color: orange;
+}
+
+.high {
+  color: crimson;
+}

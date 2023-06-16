@@ -1,0 +1,96 @@
+.pageCenter {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stopResize {
+  height: 150px;
+  width: 325px;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: var(--color-grey);
+  resize: none;
+}
+.formDataCard {
+  height: 600px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: var(--color-white);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  filter: drop-shadow(0 0 0.75rem gray);
+}
+.MarginTop {
+  margin: 30px 0 0 0;
+}
+.todoSubHeading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.todoInput {
+  height: 40px;
+  width: 325px;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: var(--color-grey);
+}
+.todoInput:focus {
+  outline: 1px solid var(--color-black);
+}
+.todoDropDown {
+  width: 325px;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: var(--color-grey);
+}
+.todoDropDown:focus {
+  outline: 1px solid var(--color-black);
+}
+.fontAwesomeIcon {
+  margin-left: 10px;
+}
+.submitBtn {
+  height: 40px;
+  width: 325px;
+  border-radius: 10px;
+  background: var(--color-black);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.displayError {
+  font-size: 15px;
+  color: red;
+}
